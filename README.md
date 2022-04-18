@@ -16,7 +16,7 @@
 		<a href="https://pinia.vuejs.org/" target="_blank">
 		    <img src="https://img.shields.io/badge/pinia-%3E2.0.13-yellow" alt="vite">
 		</a>
-		<a href="" target="_blank">
+		<a href="https://github.com/Coder-XiaoYi/vue-mobile-template/blob/main/LICENSE" target="_blank">
 		    <img src="https://img.shields.io/badge/license-MIT-success" alt="license">
 		</a>
 	</p>
