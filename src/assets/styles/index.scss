@@ -1,0 +1,24 @@
+@import "./variables.scss";
+@import "./login.scss";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 375px;
+}
+
+.app-container {
+
+  background-color: $app-background-color;
+
+  .app-header {}
+
+  .app-body {
+    height: calc(100vh - var(--van-nav-bar-height) - var(--van-tabbar-height));
+    overflow: auto;
+  }
+
+  .app-footer {}
+
+}
