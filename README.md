@@ -77,6 +77,9 @@ yarn run build
 
 - 查看开发文档、<a href="" target="_blank">vue-mobile-template</a> 开发文档正在编写中...
 - 群号码：481776734 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=eebbYNv7y-uKMpklAvgGlZpF0xI8zYhp&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="vue-mobile-template交流群" title="vue-mobile-template交流群"></a>
+  
+<img src="./public/vue-mobile-template交流群群二维码.png" alt="vite">
+
 
 #### ❤️ 鸣谢列表
 
@@ -94,3 +97,8 @@ yarn run build
 
 如果觉得框架不错，或者已经在使用了，希望你可以去 <a target="_blank" href="https://github.com/Coder-XiaoYi/vue-mobile-template">Github</a> 或者
 <a target="_blank" href="https://gitee.com/liupeiqiang/vue-mobile-template">Gitee</a> 帮我点个 ⭐ Star，这将是对我极大的鼓励与支持。
+
+#### 🙈 部分框架截屏
+
+<img src="./public/show1.png" alt="截屏1">
+<img src="./public/show2.png" alt="截屏2">
