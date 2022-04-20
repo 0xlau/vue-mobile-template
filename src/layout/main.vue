@@ -1,9 +1,9 @@
 <template>
   <div class="app-container">
-    <div class="app-header" v-if="!route.meta.hiddenNavbar">
+    <div class="app-header" v-if="showNavBar">
       <NavBar :title="route.meta.title" />
     </div>
-    <div class="app-body">
+    <div :class="showNavBar ? 'app-body' : 'app-body-noNavBar'">
       <router-view></router-view>
     </div>
     <div class="app-footer">
@@ -15,18 +15,25 @@
 </template>
 
 <script setup>
-import { NavBar, Tabbar, TabbarItem } from "vant";
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { NavBar, Tabbar, TabbarItem } from "vant";
+import { useSettingStore } from "../stores/setting";
 import NavBarConfig from '../router/navbar.config'
 
 const route = useRoute();
 const router = useRouter();
+const settingStore = useSettingStore();
+
 const active = ref(route.meta.activePath || route.fullPath);
+
+const showNavBar = computed(() => (route.meta.isNavBar == undefined ? settingStore.isNavBar : route.meta.isNavBar))
 
 function TabbarChange(active){
     router.push({path: active})
 }
+
+
 
 </script>
 

@@ -1,10 +1,10 @@
 import axios from 'axios';
 import { Dialog } from 'vant';
-import { Session } from '../utils/storage';
+import { getToken, removeToken } from './auth';
 
 // 配置新建一个 axios 实例
 const service = axios.create({
-    baseURL: '/dev-api',
+    baseURL: import.meta.env.VITE_APP_BASE_API,
     timeout: 50000,
     headers: { 'Content-Type': 'application/json' },
 });
@@ -13,8 +13,8 @@ const service = axios.create({
 service.interceptors.request.use(
     (config) => {
         // 在发送请求之前做些什么 token
-        if (Session.get('token')) {
-            config.headers.common['Authorization'] = `${Session.get('token')}`;
+        if (getToken()) {
+            config.headers.common['Authorization'] = `${getToken()}`;
         }
         return config;
     },
@@ -32,7 +32,7 @@ service.interceptors.response.use(
         if (res.code && res.code !== 0) {
             // `token` 过期或者账号已在别处登录
             if (res.code === 401 || res.code === 4001) {
-                Session.clear(); // 清除浏览器全部临时缓存
+                removeToken();
                 window.location.href = '/login'; // 去登录页
             }
             return Promise.reject(service.interceptors.response);

@@ -19,6 +19,21 @@ body {
     overflow: auto;
   }
 
+  .app-body-noNavBar {
+    height: calc(100vh  - var(--van-tabbar-height));
+    overflow: auto;
+  }
+
+  .app-body-noTabBar {
+    height: calc(100vh - var(--van-nav-bar-height));
+    overflow: auto;
+  }
+
+  .app-body-noNavBar-noTabBar {
+    height: calc(100vh);
+    overflow: auto;
+  }
+
   .app-footer {}
 
 }

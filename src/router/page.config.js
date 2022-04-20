@@ -5,7 +5,7 @@ export default [
         component: () => import('../views/my/profile.vue'),
         meta: {
             title: '个人信息',
-            // hiddenNavbar: true
+            // isNavBar: true
         }
     }
 ]

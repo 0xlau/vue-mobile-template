@@ -1,13 +1,18 @@
 import router from "./router"
 import { useUserStore } from "./stores/user"
+import { useSettingStore } from "./stores/setting"
 import { getToken } from "./utils/auth"
+
 
 const whiteList = ['/login']
 
 router.beforeEach((to, from, next) => {
     const userStore = useUserStore();
+    const settingStore = useSettingStore();
+
     if (getToken()) {
         /* has token*/
+        to.meta.title && settingStore.setTitle(to.meta.title);
         if (to.path === '/login') {
             next({ path: '/' })
         } else {
