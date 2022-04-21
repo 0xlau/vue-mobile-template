@@ -340,13 +340,10 @@
 </template>
 
 <script setup name="Login">
-import { reactive, ref } from "vue";
-import { Button, Icon, Divider, Dialog } from "vant";
-import { useUserStore } from "../stores/user";
+import { reactive } from "vue";
+import { Button, Divider, Dialog } from "vant";
+import { useUserStore } from "@/stores/user";
 import { useRouter } from "vue-router";
-import { Session } from "../utils/storage"
-
-import { login } from "../api/login"
 
 const router = useRouter();
 const userStore = useUserStore();

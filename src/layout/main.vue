@@ -18,8 +18,8 @@
 import { ref, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { NavBar, Tabbar, TabbarItem } from "vant";
-import { useSettingStore } from "../stores/setting";
-import NavBarConfig from '../router/navbar.config'
+import { useSettingStore } from "@/stores/setting";
+import NavBarConfig from '@/router/navbar.config'
 
 const route = useRoute();
 const router = useRouter();

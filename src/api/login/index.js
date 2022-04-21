@@ -1,4 +1,4 @@
-import request from "../../utils/request";
+import request from "@/utils/request";
 
 // 模拟登陆，实际需要调用request进行登录请求
 export function login(username, password) {

@@ -3,8 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import navbarConfig from './navbar.config'
 import pageConfig from './page.config'
 
-import MainLayout from '../layout/main.vue'
-import PageLayout from '../layout/page.vue'
+import MainLayout from '@/layout/main.vue'
+import PageLayout from '@/layout/page.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

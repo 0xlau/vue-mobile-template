@@ -1,8 +1,8 @@
 export default [
     {
-        name: 'profile',
-        path: '/my/profile',
-        component: () => import('../views/my/profile.vue'),
+        name: 'profile1',
+        path: '/my/profile1',
+        component: () => import('@/views/my/profile/profile1.vue'),
         meta: {
             title: '个人信息',
             // isNavBar: true

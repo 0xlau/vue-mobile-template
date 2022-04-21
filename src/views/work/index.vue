@@ -18,7 +18,7 @@
   <div>Work Page.</div>
   <div>Work Page.</div>
   <div>Work Page.</div>
-  <div>Work Page.</div>  <div>Work Page.</div>
+  <div>Work Page.</div>
   <div>Work Page.</div>
   <div>Work Page.</div>
   <div>Work Page.</div>

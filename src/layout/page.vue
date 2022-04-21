@@ -13,7 +13,7 @@
 import { computed } from "vue";
 import { NavBar } from "vant";
 import { useRoute, useRouter } from "vue-router";
-import { useSettingStore } from "../stores/setting";
+import { useSettingStore } from "@/stores/setting";
 
 const route = useRoute();
 const router = useRouter();
