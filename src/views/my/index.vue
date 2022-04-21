@@ -1,23 +1,41 @@
 <template>
   <div>
-    <CellGroup>
-      <Cell is-link clickable title="退出登录" title-style="color:red;" @click="onLogout"></Cell>
+    <CellGroup title="页面展示">
+      <Cell
+        is-link
+        title="页面实例1"
+        @click="router.push({ path: '/my/profile1' })"
+      ></Cell>
+      <Cell
+        is-link
+        title="页面实例2"
+        @click="router.push({ path: '/my/profile2' })"
+      ></Cell>
+    </CellGroup>
+    <CellGroup title="常规操作">
+      <Cell
+        is-link
+        clickable
+        title="退出登录"
+        title-style="color:red;"
+        @click="onLogout"
+      ></Cell>
     </CellGroup>
   </div>
 </template>
 
 <script setup name="My">
-import { Cell, CellGroup } from 'vant';
-import { useRouter } from 'vue-router';
-import { useUserStore } from '../../stores/user';
+import { Cell, CellGroup } from "vant";
+import { useRouter } from "vue-router";
+import { useUserStore } from "@/stores/user";
 
 const userStore = useUserStore();
 const router = useRouter();
 
-function onLogout(){
+function onLogout() {
   userStore.LogOut().then(() => {
-    router.push({path: '/login'});
-  })
+    router.push({ path: "/login" });
+  });
 }
 </script>
 
