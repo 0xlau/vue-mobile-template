@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./public/logo.png" style="margin: 20px;">
+	<img src="./public/logo.png">
 	<p align="center">
         <a href="https://vitejs.dev/" target="_blank">
             <img src="https://img.shields.io/badge/vite-%3E2.0.0-yellow" alt="vite">
@@ -76,7 +76,7 @@ yarn run build
 #### 💯 学习交流加 QQ 群
 
 - 查看开发文档、<a href="" target="_blank">vue-mobile-template</a> 开发文档正在编写中...
-- 群号码：481776734 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=eebbYNv7y-uKMpklAvgGlZpF0xI8zYhp&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="vue-mobile-template交流群" title="vue-mobile-template交流群"></a>
+- <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=eebbYNv7y-uKMpklAvgGlZpF0xI8zYhp&jump_from=webapi"><img border="0" src="https://img.shields.io/badge/Q群-481776734-blue" alt="vue-mobile-template交流群" title="vue-mobile-template交流群"></a>
   
 <img src="./public/vue-mobile-template交流群群二维码.png" alt="vite">
 
@@ -100,5 +100,10 @@ yarn run build
 
 #### 🙈 部分框架截屏
 
-<img src="./public/show1.png" alt="截屏1">
-<img src="./public/show2.png" alt="截屏2">
+<table>
+    <tr>
+        <td><img src="./public/show1.png"></td>
+        <td><img src="./public/show2.png"></td>
+    </tr>
+</table>
+
