@@ -8,7 +8,9 @@
     </div>
     <div class="app-footer">
       <Tabbar v-model="active" @change="TabbarChange">
-          <TabbarItem v-for="item in NavBarConfig" :key="item.name" :name="item.path" :icon="item.meta.icon">{{item.meta.title}}</TabbarItem>
+        <TabbarItem v-for="item in NavBarConfig" :key="item.name" :name="item.path" :icon="item.meta.icon">
+          {{ item.meta.title }}
+        </TabbarItem>
       </Tabbar>
     </div>
   </div>
@@ -29,8 +31,8 @@ const active = ref(route.meta.activePath || route.fullPath);
 
 const showNavBar = computed(() => (route.meta.isNavBar == undefined ? settingStore.isNavBar : route.meta.isNavBar))
 
-function TabbarChange(active){
-    router.push({path: active})
+function TabbarChange(active) {
+  router.push({ path: active })
 }
 
 
