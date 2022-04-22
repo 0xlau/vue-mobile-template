@@ -102,8 +102,11 @@ yarn run build
 
 <table>
     <tr>
-        <td><img src="./public/show1.png"></td>
-        <td><img src="./public/show2.png"></td>
+        <td><img src="./public/show1.jpg"></td>
+        <td><img src="./public/show2.jpg"></td>
+    </tr>
+	<tr>
+        <td><img src="./public/show3.jpg"></td>
     </tr>
 </table>
 
