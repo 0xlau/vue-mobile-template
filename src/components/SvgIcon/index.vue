@@ -18,11 +18,11 @@ const props = defineProps({
     },
     width: {
         type: String,
-        default: '1.5em'
+        default: '1rem'
     },
     height: {
         type: String,
-        default: '1.5em'
+        default: '1rem'
     }
 })
 
