@@ -2,6 +2,7 @@
   <div>
     <CellGroup title="页面展示">
       <Cell is-link title="我的页面模板一" @click="router.push({ path: '/my/profile1' })"></Cell>
+      <Cell is-link title="我的页面模板二" @click="router.push({ path: '/my/profile2' })"></Cell>
     </CellGroup>
     <CellGroup title="常规操作">
       <Cell is-link clickable title="退出登录" title-style="color:red;" @click="onLogout"></Cell>

@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="./public/logo.png">
+	<img src="./public/other/logo.png">
 	<p align="center">
         <a href="https://vitejs.dev/" target="_blank">
             <img src="https://img.shields.io/badge/vite-%3E2.0.0-yellow" alt="vite">
@@ -78,7 +78,7 @@ yarn run build
 - 查看开发文档、<a href="" target="_blank">vue-mobile-template</a> 开发文档正在编写中...
 - <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=eebbYNv7y-uKMpklAvgGlZpF0xI8zYhp&jump_from=webapi"><img border="0" src="https://img.shields.io/badge/Q群-481776734-blue" alt="vue-mobile-template交流群" title="vue-mobile-template交流群"></a>
   
-<img src="./public/vue-mobile-template交流群群二维码.png" alt="vite">
+<img src="./public/other/vue-mobile-template交流群群二维码.png" alt="vite">
 
 
 #### ❤️ 鸣谢列表
@@ -102,11 +102,12 @@ yarn run build
 
 <table>
     <tr>
-        <td><img src="./public/show1.jpg"></td>
-        <td><img src="./public/show2.jpg"></td>
+        <td><img src="./public/other/show1.jpg"></td>
+        <td><img src="./public/other/show2.jpg"></td>
     </tr>
 	<tr>
-        <td><img src="./public/show3.jpg"></td>
+		<td><img src="./public/other/show4.jpg"></td>
+        <td><img src="./public/other/show3.jpg"></td>
     </tr>
 </table>
 
