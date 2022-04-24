@@ -107,7 +107,10 @@ yarn run build
     </tr>
 	<tr>
 		<td><img src="./public/other/show4.jpg"></td>
-        <td><img src="./public/other/show3.jpg"></td>
+        <td><img src="./public/other/show5.jpg"></td>
+    </tr>
+	<tr>
+		<td><img src="./public/other/show3.jpg"></td>
     </tr>
 </table>
 
