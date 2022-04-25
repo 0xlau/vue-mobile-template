@@ -3,7 +3,7 @@
     <div class="profile-header">
       <div class="profile-header-inner">
         <div class="profile-info">
-          <Image class="profile-info-avatar" round fit="cover" src="/other/avatar.png"></Image>
+          <Image class="profile-info-avatar" round fit="cover" src="./other/avatar.png"></Image>
           <div class="profile-info-main">
             <span class="profile-info-main-nickname">码农小易</span>
             <span class="profile-info-main-phone">131****0000</span>

@@ -23,21 +23,21 @@ const barData = reactive([
 const data = reactive([
   { 
     userId: '9b54c39939c3776bd706ad315452cde8',
-    avatar: '/msg/avatar1.jpeg',
+    avatar: './msg/avatar1.jpeg',
     nickName: 'Jasmine',
     newestMsg: '最近过得还好吗？',
     unReadCount: 2,
   },
   { 
     userId: '795d2d2f7711170a99958f8c8d195414',
-    avatar: '/msg/avatar2.jpeg',
+    avatar: './msg/avatar2.jpeg',
     nickName: 'Amanda',
     newestMsg: 'vue-mobile-template这个模板简直了！',
     unReadCount: 0,
   },
   { 
     userId: 'c4dec0b791ad3df3d4e1bace20dc9c69',
-    avatar: '/msg/avatar3.jpeg',
+    avatar: './msg/avatar3.jpeg',
     nickName: 'Christine',
     newestMsg: 'Hello~',
     dot: true

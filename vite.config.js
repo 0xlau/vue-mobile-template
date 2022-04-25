@@ -6,6 +6,7 @@ import { svgBuilder } from './src/plugins/svgBuilder';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue-mobile-template/',
   plugins: [
     vue(),
     styleImport({

@@ -2,7 +2,7 @@
     <div class="profile-container">
         <div class="profile-header">
             <div class="profile-info">
-                <Image class="profile-info-avatar" round fit="cover" src="/other/avatar.png"></Image>
+                <Image class="profile-info-avatar" round fit="cover" src="./other/avatar.png"></Image>
                 <span class="profile-info-nickname">码农小易</span>
                 <span class="profile-info-address">
                     <Icon name="location-o" /> 北京 天安门
@@ -57,7 +57,7 @@ import { Image, Icon, Grid, GridItem, CellGroup, Cell } from 'vant';
 
         width: 375px;
         height: 220px;
-        background-image: url("/profile2/background.png");
+        background-image: url("./profile2/background.png");
         background-size: cover;
 
         display:flex;
