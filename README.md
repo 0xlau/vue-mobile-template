@@ -35,7 +35,8 @@ vue-mobile-template默认已加入 `Rem布局适配`，可在根目录 `postcss.
 
 #### ⛱️ 线上预览
 
-- 尚未搭建
+- github 演示: <a href="https://coder-xiaoyi.github.io/vue-mobile-template" target="_blank">https://coder-xiaoyi.github.io/vue-mobile-template</a>
+- gitee 演示: <a href="https://liupeiqiang.gitee.io/vue-mobile-template" target="_blank">https://liupeiqiang.gitee.io/vue-mobile-template</a>
 
 #### 💒 代码仓库
 
