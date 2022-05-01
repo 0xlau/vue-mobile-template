@@ -357,6 +357,8 @@ function onLogin() {
 
   userStore.Login(form).then((response) => {
     router.push({path: '/'})
+  }).catch((err) => {
+    Dialog.alert({message: err});
   })
 
 }
