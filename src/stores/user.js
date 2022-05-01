@@ -10,6 +10,8 @@ export const useUserStore = defineStore({
     userName: null,
     avatar: null,
     nickName: null,
+    permissions: [],
+    roles: [],
   }),
   actions: {
     Login: function (userInfo) {
@@ -25,13 +27,15 @@ export const useUserStore = defineStore({
         })
       })
     },
-    GetInfo: function () {
+    GetInfo: function (token) {
       return new Promise((resolve, reject) => {
-        getInfo().then(res => {
+        getInfo(token).then(res => {
           this.avatar = res.data.avatar;
           this.userId = res.data.userId;
           this.userName = res.data.userName;
           this.nickName = res.data.nickName;
+          this.permissions = res.data.permissions;
+          this.roles = res.data.roles;
           resolve(res)
         }).catch(error => {
           reject(error)
@@ -41,7 +45,8 @@ export const useUserStore = defineStore({
     LogOut: function() {
       return new Promise((resolve, reject) => {
         logout().then(() => {
-          this.token = '';
+          this.token = null;
+          this.userId = null;
           removeToken()
           resolve()
         }).catch(error => {

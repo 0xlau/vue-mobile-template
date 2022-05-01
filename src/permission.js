@@ -18,7 +18,7 @@ router.beforeEach((to, from, next) => {
         } else {
             if (userStore.userId == null) {
                 // 判断当前用户是否已拉取完user_info信息
-                userStore.GetInfo().then(() => {
+                userStore.GetInfo(getToken()).then(() => {
                     next({ ...to, replace: true })
                 }).catch(err => {
                     userStore.LogOut().then(() => {
