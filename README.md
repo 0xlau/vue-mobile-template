@@ -33,10 +33,27 @@
 
 vue-mobile-template默认已加入 `Rem布局适配`，可在根目录 `postcss.config.js` 进行修改。
 
+#### ✨ 已内置的功能
+- 组件
+  - GridCard - 网格卡片
+  - MsgList - 消息列表
+  - SvgIcon - 矢量图形
+- 页面
+  - 登录页面
+  - 聊天消息列表页面
+  - 个人中心页面 * 2	
+- 功能
+  - 登录、登出
+  - 页面权限
+  - 指令权限
+  - Rem布局适配
+
 #### ⛱️ 线上预览
 
-- github 演示: <a href="https://coder-xiaoyi.github.io/vue-mobile-template" target="_blank">https://coder-xiaoyi.github.io/vue-mobile-template</a>
-- gitee 演示: <a href="https://liupeiqiang.gitee.io/vue-mobile-template" target="_blank">https://liupeiqiang.gitee.io/vue-mobile-template</a>
+- <a href="https://coder-xiaoyi.github.io/vue-mobile-template" target="_blank">github 演示</a>
+- <a href="https://liupeiqiang.gitee.io/vue-mobile-template" target="_blank">gitee 演示</a>
+- Admin账号密码：admin/admin123
+- user账号密码：user1/user1
 
 #### 💒 代码仓库
 
@@ -112,6 +129,7 @@ yarn run build
     </tr>
 	<tr>
 		<td><img src="./public/other/show3.jpg"></td>
+		<td><img src="./public/other/show6.jpg"></td>
     </tr>
 </table>
 
