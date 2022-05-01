@@ -19,6 +19,16 @@ export default [
         }
     },
     {
+        name: 'permission',
+        path: '/permission',
+        component: () => import('@/views/permission/index.vue'),
+        meta: {
+            title: '权限演示',
+            icon: 'browsing-history-o',
+            // isNavBar: false
+        }
+    },
+    {
         name: 'my',
         path: '/my',
         component: () => import('@/views/my/index.vue'),
